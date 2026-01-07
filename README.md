@@ -84,7 +84,7 @@ No errors, everything is good
 - **File Encoding**: UTF-8
 - **Word Pattern**: Alphanumeric characters and underscores only
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Feel free to:
 - Add support for other languages
@@ -92,10 +92,8 @@ Contributions are welcome! Feel free to:
 - Add unit tests
 - Improve word detection algorithms
 
-## 📄 License
+## License
 
 MIT License - feel free to use this project for learning and development.
 
 ---
-
-**Built with ❤️ using TypeScript and Typo.js**
