@@ -1,17 +1,17 @@
-# 📝 TypeScript Spell Checker
+# TypeScript Spell Checker
 
 A command-line spell checker built with TypeScript that analyzes text files and provides spelling suggestions using the Typo.js library.
 
-## ✨ Features
+## Features
 
-- 🔍 **Accurate spell checking** using US English dictionary
-- 📍 **Line number tracking** for misspelled words
-- 💡 **Smart suggestions** with up to 3 alternatives per word
-- 🧹 **Word cleaning** removes punctuation and special characters
-- 📊 **Duplicate detection** consolidates repeated misspellings across lines
-- ⚡ **Fast processing** with efficient file parsing
+- **Accurate spell checking** using US English dictionary
+- **Line number tracking** for misspelled words
+- **Smart suggestions** with up to 3 alternatives per word
+- **Word cleaning** removes punctuation and special characters
+- **Duplicate detection** consolidates repeated misspellings across lines
+- **Fast processing** with efficient file parsing
 
-## 🚀 Installation
+## Installation
 
 1. Clone the repository:
 ```bash
@@ -29,7 +29,7 @@ npm install
 npm install typo-js @types/node typescript ts-node
 ```
 
-## 💻 Usage
+## Usage
 
 Run the spell checker on any text file:
 
@@ -50,7 +50,7 @@ npx ts-node index.ts README.md
 npx ts-node index.ts script.js
 ```
 
-## 📊 Sample Output
+## Sample Output
 
 ```
 'recieve' is misspelled on line(s): 5, 12. Suggestions: receive, relieve, deceive
@@ -62,7 +62,7 @@ Or when no errors are found:
 No errors, everything is good
 ```
 
-## 🛠️ How It Works
+## How It Works
 
 1. **File Reading**: Reads the specified file using Node.js fs module
 2. **Text Parsing**: Splits content into lines and extracts individual words
@@ -71,13 +71,13 @@ No errors, everything is good
 5. **Suggestion Generation**: Provides alternatives for misspelled words
 6. **Result Aggregation**: Groups same misspellings across multiple lines
 
-## 📋 Requirements
+## Requirements
 
-- Node.js 14+ 
+- Node.js 
 - TypeScript
 - Dependencies: `typo-js`, `@types/node`
 
-## 🔧 Technical Details
+## Technical Details
 
 - **Language**: TypeScript
 - **Dictionary**: US English (typo-js)
